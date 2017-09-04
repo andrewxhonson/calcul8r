@@ -1,0 +1,20 @@
+/*
+purple: #B2ABF2
+maroon: #89043D
+teal:   #2FE6DE
+dark blue: #1C3041
+green blue: #18F2B2
+*/
+
+body { text-align: center; margin: 50px auto; background: #1C3041; }
+#calculator { text-align: left; margin: 0 auto; width: 1000px; }
+
+input, button {
+    /* removes stylings from default form elements */
+    border: 0; border-radius: 0; box-shadow: none; }
+
+input {  height: 100px; font-family: "PT Mono"; font-size: 48pt; padding: 0; margin: 0; background: #2FE6DE; margin: 10px; text-align: right; }
+#output { width: 420px; }
+#input { width: 640px; }
+button { width: 200px; height: 100px; font-size: 48pt; font-family: "PT Mono"; background: #89043D; margin: 10px; color: #fff; }
+#calculator :nth-child(3n) { }
