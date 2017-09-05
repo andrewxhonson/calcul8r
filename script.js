@@ -36,7 +36,7 @@ function addToScreen() {
 
 var buttons = document.getElementById("inputs");
 for (var i = 0; i < buttons.childNodes.length; i++) {
-    if(buttons.childNodes[i].tagName === "BUTTON") {
+    if(buttons.childNodes[i].tagName === "BUTTON" && ) {
         buttons.childNodes[i].addEventListener("click", addToScreen);
     }
 }
